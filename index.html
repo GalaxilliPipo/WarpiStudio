@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warpi Studio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="Assets/Mascote.png">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+        <div class="NavLogo">Warpi Studio</div>
+        <ul>
+            <li>
+                <a href="index.html">Home</a></li>
+            </li>
+            <li>
+                <a href="Tabs/Creditos.html">Créditos</a>
+            </li>
+            <li>
+                <a href="javascript:void(0)" onclick="AbrirConfiguracoes()" class="Configuracoes">
+                    <img src="Assets/Engrenagem.png" alt="Abrir Configurações" width="30" height="30" style="vertical-align: middle;">
+                </a>
+            </li>
+            <li>
+                <a href="javascript:void(0)" onclick="AbrirMenuIdioma()" class="MenuIdioma">
+                    <img src="Assets/Idioma.png" alt="Abrir Menu de Idioma" width="30" height="30" style="vertical-align: middle;">
+                </a>
+            </li>
+        </ul>
+    </nav>
+  </header>
+    <h1>Warpi Studio</h1>
+    <p class="CP1">Aqui na Warpi Studio, você encontra os melhores webtoons e novels!</p>
+    <p class="CP1">Explore nossas histórias e mergulhe em mundos incríveis!</p>
+    <p class="CP1">Então não deixe de separar um tempo pra ler!</p>
+    <img class="Logo" src="Assets/Logo.png" alt="Logo da Warpi Studio" width="1000" height="600">
+    <div class="Div">
+        <h3>Warborn</h3>
+        <button onclick="window.location.href='Webtoons/Warborn/Warborn.html'">Ler</button>
+    </div>
+    <div class="Div">
+        <h3>Pedras de Lyrae</h3>
+        <button onclick="window.location.href='Webtoons/PedrasLyrae/PedrasLyrae.html'">Ler</button>
+    </div>
+
+    <footer>
+        <p>&copy;</p>
+        <p>2026 Warpi Studio. Todos os direitos reservados.</p>
+    </footer>
+    <script src="Scripts/Idioma.js"></script>
+    <script src="Scripts/Configuracoes.js"></script>
+</body>
+</html>

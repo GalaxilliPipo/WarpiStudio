@@ -1,0 +1,43 @@
+msgid ""
+msgstr ""
+"Language: JA\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Idioma"
+msgstr "言語"
+
+msgid "Configurações"
+msgstr "設定"
+
+msgid "Salvar"
+msgstr "保存"
+
+msgid "Voltar"
+msgstr "戻る"
+
+msgid "Redefinir"
+msgstr "再定義"
+
+msgid "Dados"
+msgstr "データ"
+
+msgid "Limpar Backup (Reset Total)"
+msgstr "クリアバックアップ（トータルリセット）"
+
+msgid "Warpi Studio"
+msgstr "Warpi Studio"
+
+msgid "Aqui na Warpi Studio, você encontra os melhores webtoons e novels!"
+msgstr "ここWarpi Studioでは、最高のwebtoonsと小説を見つけることができます！"
+
+msgid "Explore nossas histórias e mergulhe em mundos incríveis!"
+msgstr "私たちの物語を探索し、驚くべき世界に身を浸します！"
+
+msgid "Então não deixe de separar um tempo pra ler!"
+msgstr "だから、読むためにいくつかの時間を取っておくことを躊躇しないでください！"
+
+msgid "2026 Warpi Studio. Todos os direitos reservados."
+msgstr "2026 Warpi Studio. すべての権利を保有します。"
+
+msgid "Ler"
+msgstr "読む"

@@ -1,0 +1,204 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('Assets/Montserrat/Montserrat-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: #f7f7f7;
+  font-family: 'Montserrat';
+  color: #130025;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #26004a;
+  text-align: center;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    color: #0a0013;
+    background-color: #6500c7;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+}
+
+.Logo {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    align-items: center;
+}
+
+.Div {
+    background-color: #f7eeff;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 15px;
+    width: 60%;
+    min-width: 320px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.CP1 {
+    text-align: center;
+}
+
+.navbar {
+  background-color: #6500c7;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+  color: #0a0013;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  margin-left: 20px;
+}
+
+.navbar a {
+  color: #0a0013;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+  position: relative;
+  padding-bottom: 5px;
+}
+
+.navbar a:hover {
+  color: #9a32ff;
+}
+
+.navbar a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #9a32ff;
+    transition: width 0.3s;
+}
+
+.navbar a:hover::after {
+    width: 100%;
+}
+
+.navbar a.Tema::after {
+    display: none;
+}
+
+.navbar a.Configuracoes::after {
+    display: none;
+}
+
+.navbar a.MenuIdioma::after {
+    display: none;
+}
+
+.NavLogo, .Logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.ModalJanela {
+    background-color: #f7f7f7;
+    padding: 30px;
+    border-radius: 15px;
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+    text-align: left;
+}
+
+.ConfiguracaoItem {
+    margin-bottom: 20px;
+}
+
+.ConfiguracaoItem label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.ModalBotoes {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.ModalSobreposicao {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+button, input, select, textarea {
+        width: 100%;
+        box-sizing: border-box;
+}
+
+button {
+    background-color: #6405c2;
+    padding: 12px 24px;
+    border: 2px solid #50009e;
+    border-radius: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+    color: #0a0013
+}
+
+button:hover {
+    background-color: #b160ff;
+    border: 2px solid #901cff;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+}
+
+button:active {
+    transform: translateY(0);
+}
+
+input, select, textarea {
+    background-color: #b160ff;
+    border: 2px solid #901cff;
+    border-radius: 10px;
+    padding: 12px 15px;
+    color: #0a0013;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    outline: none;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+#texto {
+  white-space: pre-line;
+}

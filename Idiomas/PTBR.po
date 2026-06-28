@@ -1,0 +1,43 @@
+msgid ""
+msgstr ""
+"Language: PTBR\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Idioma"
+msgstr "Idioma"
+
+msgid "Configurações"
+msgstr "Configurações"
+
+msgid "Salvar"
+msgstr "Salvar"
+
+msgid "Voltar"
+msgstr "Voltar"
+
+msgid "Redefinir"
+msgstr "Redefinir"
+
+msgid "Dados"
+msgstr "Dados"
+
+msgid "Limpar Backup (Reset Total)"
+msgstr "Limpar Backup (Reset Total)"
+
+msgid "Warpi Studio"
+msgstr "Warpi Studio"
+
+msgid "Aqui na Warpi Studio, você encontra os melhores webtoons e novels!"
+msgstr "Aqui na Warpi Studio, você encontra os melhores webtoons e novels!"
+
+msgid "Explore nossas histórias e mergulhe em mundos incríveis!"
+msgstr "Explore nossas histórias e mergulhe em mundos incríveis!"
+
+msgid "Então não deixe de separar um tempo pra ler!"
+msgstr "Então não deixe de separar um tempo pra ler!"
+
+msgid "2026 Warpi Studio. Todos os direitos reservados."
+msgstr "2026 Warpi Studio. Todos os direitos reservados."
+
+msgid "Ler"
+msgstr "Ler"

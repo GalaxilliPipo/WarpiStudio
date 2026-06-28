@@ -1,0 +1,43 @@
+msgid ""
+msgstr ""
+"Language: KO\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Idioma"
+msgstr "언어"
+
+msgid "Configurações"
+msgstr "설정"
+
+msgid "Salvar"
+msgstr "저장"
+
+msgid "Voltar"
+msgstr "뒤로"
+
+msgid "Redefinir"
+msgstr "재설정"
+
+msgid "Dados"
+msgstr "데이터"
+
+msgid "Limpar Backup (Reset Total)"
+msgstr "림파르 백업(리셋 총)"
+
+msgid "Warpi Studio"
+msgstr "Warpi Studio"
+
+msgid "Aqui na Warpi Studio, você encontra os melhores webtoons e novels!"
+msgstr "여기 Warpi Studio, 당신은 최고의 웹툰과 소설을 찾습니다!"
+
+msgid "Explore nossas histórias e mergulhe em mundos incríveis!"
+msgstr "우리의 이야기를 탐험하고 놀라운 세계에 빠져보세요!"
+
+msgid "Então não deixe de separar um tempo pra ler!"
+msgstr "그래서 읽을 시간을 따로 설정해야합니다!"
+
+msgid "2026 Warpi Studio. Todos os direitos reservados."
+msgstr "2026 Warpi Studio. 모든 권리 보유."
+
+msgid "Ler"
+msgstr "읽기"

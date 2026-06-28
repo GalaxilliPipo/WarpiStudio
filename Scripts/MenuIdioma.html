@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <link class="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="ModalJanela">
+        <h2>Idioma</h2>
+
+        <div class="ConfiguracaoItem">
+            <label>Idioma</label>
+            <select id="ConfigIdioma" onchange="parent.TrocarIdioma(this.value); parent.MarcarAlteracao();">
+                <option value="PTBR">Português (Brasil)</option>
+                <option value="ENUS">English</option>
+                <option value="ES">Español</option>
+            </select>
+        </div>
+
+        <div class="ConfiguracaoItem">
+            <label>Dados</label>
+            <button onclick="parent.ExecutarReinicializacaoBackup()">Limpar Backup (Reset Total)</button>
+        </div>
+
+        <div class="ModalBotoes">
+            <button onclick="parent.FecharMenuIdioma()">Voltar</button>
+            <button onclick="parent.RedefinirIdioma()">Redefinir</button>
+            <button onclick="parent.SalvarIdioma()">Salvar</button>
+        </div>
+    </div>
+</body>
+</html>
